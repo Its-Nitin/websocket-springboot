@@ -1,0 +1,19 @@
+<div class="connect mt-3"><button class="btn btn-success" (click)="connectWs()">Connect</button> </div>
+<div class="container card mt-3" *ngIf="stock.name">
+  <table>
+  <tbody>
+  <tr>
+    <td>
+      <img class="icon p-2" [src]="stock.icon" width="200px" />
+    <td>
+    <td>
+    <div class="h1">{{stock.name}}<div *ngIf="stock.increased"
+                                       style="color: green ; margin: 0 10px 0 10px; float: right;">▲</div>
+      <div *ngIf="!stock.increased" style="color: red ; margin: 0 10px 0 10px; float: right;">▼</div>
+    </div>
+  <td>
+    <td>{{stock.price}}</td>
+  </tr>
+  </tbody>
+</table>
+</div>
