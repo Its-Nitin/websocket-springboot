@@ -76,10 +76,10 @@ Run the client (depending on implementation):
 
 🔧 How It Works
 
-  -- Spring Boot exposes a WebSocket endpoint (e.g., /ws).
-  -- WebSocket clients connect to the endpoint.
-  -- Both server and client exchange real-time messages.
-  -- Server can broadcast or reply individually.
+  - Spring Boot exposes a WebSocket endpoint (e.g., /ws).
+  - WebSocket clients connect to the endpoint.
+  - Both server and client exchange real-time messages.
+  - Server can broadcast or reply individually.
 
 Contributing
   Fork the repo
