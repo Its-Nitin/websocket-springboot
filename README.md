@@ -25,13 +25,13 @@ A Spring Boot project implementing **WebSocket** for real-time, bi-directional c
 
 ## 📁 Project Structure
 
-websocket-springboot/
-├── src/
-│ ├── main/
-│ │ ├── java/ # Backend WebSocket code
-│ │ └── resources/ # Config files
-├── Websocket/ # WebSocket server module
-└── WebsocketClient/ # Client module
+    websocket-springboot/
+    ├── src/
+    │ ├── main/
+    │ │ ├── java/ # Backend WebSocket code
+    │ │ └── resources/ # Config files
+    ├── Websocket/ # WebSocket server module
+    └── WebsocketClient/ # Client module
 
 ---
 
@@ -63,7 +63,7 @@ websocket-springboot/
     
     The server starts at:
     http://localhost:8080
-Running the WebSocket Client
+### Running the WebSocket Client
   Go to the client folder:
   
     cd WebsocketClient
@@ -82,8 +82,8 @@ Run the client (depending on implementation):
   - Server can broadcast or reply individually.
 
 Contributing
-  Fork the repo
-  Create your branch (git checkout -b feature-name)
-  Commit changes
-  Push and create a Pull Request
+  - Fork the repo
+  - Create your branch (git checkout -b feature-name)
+  - Commit changes
+  - Push and create a Pull Request
 
